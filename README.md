@@ -10,7 +10,7 @@ When the application loads, you will need to have information for each of the co
 and the ‘market price’ of each. This information will need to be displayed in a meaningful way on the DOM.
 
 Every 15 seconds, the prices should change however, and with it, the listed price on the DOM. Specifically, 
-the market price of each of the items should fluctuate up or down 50 cents with each 15 second interval. 
+the market price of each of the items should fluctuate up or down 50 cents (between 1 cent and 50 cents) with each 15 second interval. 
 Any given fruit is not allowed to go below a cost of 50 cents, or above the cost of 9 dollars and 99 cents. 
 
 The information displayed for each of the fruit should have a ‘button like’ functionality where the user can 
