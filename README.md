@@ -1,6 +1,6 @@
 # Prime Group jQuery Challenge
 jQuery is great! It allows us to do so many things! You and your group will need to flex everything you know about 
-Javascript, jQuery, and Bootstrap to tackle this challenge. 
+Javascript, jQuery, and CSS to tackle this challenge. 
 
 ## The Fruit Market
 For this challenge, you will be working with 4 commodities; 
@@ -25,7 +25,7 @@ market price, which will be deducted from the total cash. The user is not allowe
 
 The user will start with $100.
 
-Finally, style the whole experience with Bootstrap!
+Use vanilla CSS (i.e. no frameworks) to style your application based on these [wireframes](https://drive.google.com/file/d/0BzxisghIZXqgX21xT04tQ0xmUDQ/view?usp=sharing).
 
 ##Hard Mode
 Create a button below each of the Fruit buttons that allows the User to ‘sell’ one of their fruits of the same 
