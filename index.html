@@ -6,14 +6,38 @@
 
 		<meta name="description" content="Webpage">
 		<link href="stylesheet.css" rel="stylesheet">
-
+		<link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
 		<script src="jquery.min.js"></script>
 		<script src="script.js"></script>
 	</head>
-
+	<header><h1>Welcome to the Fruit Market!</h1></header>
 	<body>
-		<h1> My name is Hillary and I am testing out how to merge branches on a group project!!!!</h1>
-
-
+		<main id="marketPlace">
+			<div class="market"><h2>Apples</h2><img src="apple.jpg" id="apples"><p id="applesPrice">Market Price: <p></div>
+			<div class="market"><h2>Oranges</h2><img src="oranges.jpg" id="oranges"><p id="orangesPrice">Market Price: <p></div>
+			<div class="market"><h2>Bananas</h2><img src="bananas.jpg" id="bananas"><p id="bananasPrice">Market Price: <p></div>
+			<div class="market"><h2>Grapes</h2><img src="grapes.jpg" id="grapes"><p id="grapesPrice">Market Price: <p></div>
+		</main>
+		<div id="inventory">
+			<h2>Your Profile</h2>
+			<h3 id="wallet">Wallet: </h3>
+			<table id="table_id" class="display">
+				<thead>
+					<tr>
+						<th></th>
+						<th>Apples</th>
+						<th>Oranges</th>
+						<th>Bananas</th>
+						<th>Grapes</th>
+					</tr>
+				</thead>
+				<tbody>
+					<td>Quantity</td>
+				</tbody>
+				<tbody>
+					<td>Average Price</td>
+				</tbody>
+			</table>
+		</div>
 	</body>
 </html>
