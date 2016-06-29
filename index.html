@@ -14,14 +14,14 @@
 	<body>
 
 		<main id="marketPlace">
-			<div class="market"><h2>Apples</h2><img src="apple.jpg" id="apples"><p id="applesPrice">Market Price: <p></div>
-			<div class="market"><h2>Oranges</h2><img src="oranges.jpg" id="oranges"><p id="orangesPrice">Market Price: <p></div>
-			<div class="market"><h2>Bananas</h2><img src="bananas.jpg" id="bananas"><p id="bananasPrice">Market Price: <p></div>
-			<div class="market"><h2>Grapes</h2><img src="grapes.jpg" id="grapes"><p id="grapesPrice">Market Price: <p></div>
+			<div class="market"><h2>Apples</h2><img src="apple.jpg" id="apples"><p>Market Price: $<span id="applesPrice"></span><p></div>
+			<div class="market"><h2>Oranges</h2><img src="oranges.jpg" id="oranges"><p>Market Price: $<span id="orangesPrice"></span><p></div>
+			<div class="market"><h2>Bananas</h2><img src="bananas.jpg" id="bananas"><p>Market Price: $<span id="bananasPrice"></span><p></div>
+			<div class="market"><h2>Grapes</h2><img src="grapes.jpg" id="grapes"><p>Market Price: $<span  id="grapesPrice"></span><p></div>
 		</main>
 		<div id="inventory">
 			<h2>Your Profile</h2>
-			<h3 id="wallet">Wallet: </h3>
+			<h3>Wallet: $<span id="wallet">100</span> </h3>
 			<table id="table_id" class="display">
 				<thead>
 					<tr>
@@ -33,10 +33,22 @@
 					</tr>
 				</thead>
 				<tbody>
+					<tr>
 					<td>Quantity</td>
+					<td id="appleQ">0</td>
+					<td id="orangeQ">0</td>
+					<td id="bananaQ">0</td>
+					<td id="grapeQ">0</td>
+				</tr>
 				</tbody>
 				<tbody>
+					<tr>
 					<td>Average Price</td>
+					<td>$<span id="appleP">0</span></td>
+					<td>$<span id="orangeP">0</span></td>
+					<td>$<span id="bananaP">0</span></td>
+					<td>$<span id="grapeP">0</span></td>
+				</tr>
 				</tbody>
 			</table>
 		</div>
