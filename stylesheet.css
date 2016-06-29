@@ -52,6 +52,7 @@ header {
 }
 h1 {
   font-size: 4em;
+	padding-top: 1em;
 }
 h2 {
   font-size: 2.5em;
@@ -81,9 +82,16 @@ img {
   border: solid #3e2c15;
   border-radius: 1em;
 }
-body {
+html {
 	background-color: #2b825f;
-	color: white;
+
+}
+
+body {
+	background-color: white;
+	height: 850px;
+	margin: 1em;
+	border-radius: 1em;
 }
 #inventory {
   text-align: center;
