@@ -78,10 +78,13 @@ img {
   height: auto;
   max-height: 150px;
   overflow: hidden;
-  border: solid black;
+  border: solid #3e2c15;
   border-radius: 1em;
 }
-
+body {
+	background-color: #2b825f;
+	color: white;
+}
 #inventory {
   text-align: center;
   display: inline;
@@ -90,16 +93,19 @@ img {
 table {
   text-align: center;
   margin: 1em auto;
-  border: solid black;
+  border: solid #3e2c15;
+	box-shadow: .5em .5em 1em #5a401e;
+	background-color: #46c18f;
+
 }
 
 th {
   font-size: 1.8em;
-  padding: .5em;
-  border: solid black;
+  padding: .6em;
+  border: solid #3e2c15;
 }
 td {
   font-size: 1.5em;
   padding: .5em;
-  border: solid black;
+  border: solid #3e2c15;
 }
